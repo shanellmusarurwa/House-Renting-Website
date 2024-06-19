@@ -21,3 +21,57 @@
     text-decoration: none;
     margin-left: 40px;
 }
+.main-img{
+    width:100%;
+    height: auto;
+    position: relative;
+}
+.main-img img{
+    max-width: 100%;
+    margin-top: 15px;
+
+}
+.main-img .text{
+    position: absolute;
+    color: black;
+    left: 20px;
+    bottom: 290px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: xx-large;
+    border: 1px solid white;
+    background-color: #fff;
+    border-radius: 0 60px 0 60px;
+    padding: 30px 60px 30px 40px;
+
+}
+.main-img .text span{
+    color: #444444;
+    font-size: 16px;
+    display: block;
+    margin-top: 25px;
+    line-height: 1.2rem;
+}
+
+   
+.container{
+
+  display: flex;  
+  justify-content: baseline;
+  margin-top: 100PX;
+  padding: 30px;
+
+}
+
+
+.images{
+    margin-top: 100px;
+}
+.details{
+    background-color: #F2F0F2;
+}
+
+.details h1{
+    text-align: center;
+    margin-top: 220px;
+}
