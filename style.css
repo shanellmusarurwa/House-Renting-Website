@@ -62,14 +62,14 @@ body {
 .main-img .text {
     position: absolute;
     color: black;
-    top: 20px;
+    top: 100px;
     left: 20px;
     font-weight: bold;
     font-size: xx-large;
     border: 1px solid white;
     background-color: #fff;
     border-radius: 0 60px 0 60px;
-    padding: 30px 60px 30px 40px;
+    padding: 20px 40px 20px 40px;
 }
 
 .main-img .text span {
@@ -92,15 +92,15 @@ body {
 .images {
     display: grid;
     gap: 0;
-    grid-template-columns: repeat(2, 1fr); /* 2 columns */
-    grid-template-rows: repeat(2, auto); /* 2 rows */
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, auto); 
     width: 50%;
 }
 
 .images img {
     width: 100%;
     height: auto;
-    border: none; /* Removed border */
+    border: none; 
 }
 
 .details-wrapper {
@@ -110,6 +110,7 @@ body {
     align-items: center;
     border: 1px solid #f2f0f2;
     background-color: #f2f0f2;
+    border-radius: 0 20px 20px 0;
     height: auto;
 }
 
@@ -122,7 +123,7 @@ body {
 }
 
 .heading {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .details span {
@@ -144,12 +145,13 @@ p {
 .icons {
     display: flex;
     justify-content: center;
-    padding: 60px 80px;
+    padding: 20px 40px;
     gap: 1rem;
 }
 
 .icon-1, .icon-2, .icon-3, .icon-4 {
     border: 1px solid #F2F0F2;
+    border-radius: 20px;
     padding: 20px;
     background-color: #F2F0F2;
     text-align: center;
@@ -201,7 +203,7 @@ p {
     }
 
     #check:checked ~ .navbar {
-        height: 17.7rem;
+        height: 10rem;
     }
 
     .navbar a {
@@ -221,10 +223,10 @@ p {
     }
 
     .main-img .text {
-        top: 20px;
+        top: 50px;
         left: 10px;
         font-size: 1rem;
-        padding: 10px 20px;
+        padding: 30px 10px;
         border-radius: 10px;
     }
 
@@ -279,11 +281,7 @@ p {
     }
 
     .main-img .text {
-        top: 10px;
-        left: 10px;
-        font-size: 1rem;
-        padding: 10px 20px;
-        border-radius: 10px;
+        display: none;
     }
 
     .container {
